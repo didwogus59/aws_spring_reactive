@@ -40,6 +40,8 @@ dependencies {
 	runtimeOnly ("io.jsonwebtoken:jjwt-impl:0.11.5")
 	runtimeOnly ("io.jsonwebtoken:jjwt-jackson:0.11.5")
 
+	implementation("com.corundumstudio.socketio:netty-socketio:2.0.12")
+
 }
 
 tasks.withType<Test> {

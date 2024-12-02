@@ -38,7 +38,7 @@ public class CorsConfig {
             ServerHttpRequest request = ctx.getRequest();
 
             // 허용할 도메인 리스트
-            List<String> allowedOrigins = Arrays.asList("http://localhost:8080","http://localhost:63342", "http://3.36.90.253:8080", "https://localhost:8080","https://localhost:63342", "https://3.36.90.253:8080");
+            List<String> allowedOrigins = Arrays.asList("http://localhost:8080","http://localhost:63342", "http://3.36.90.253:8080", "https://localhost:8080","https://localhost:63342", "https://3.34.155.1", "https://didwogus59.site");
             String originHeader = request.getHeaders().getOrigin();
 
             if (CorsUtils.isCorsRequest(request)) {

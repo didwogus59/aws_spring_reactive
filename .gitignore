@@ -45,3 +45,5 @@ docker/
 docker
 
 bootsecurity.p12
+
+keystore.p12
